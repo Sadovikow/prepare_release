@@ -1,3 +1,15 @@
+
+ # Preparing to release
+ 
+ Put in your CLI:
+ 
+ ```cli
+ cd ~
+ ./release.md release_45
+ ```
+
+
+```cli
 #!/bin/bash
 PROJECT_PATH="/Users/username/Desktop/Projects/yourproject_backend"
 PROJECT_PATH_FRONT="/Users/username/Desktop/Projects/yourproject_frontend"
@@ -30,3 +42,5 @@ git pull origin master
 
 git checkout -b $1
 git status 
+
+```
